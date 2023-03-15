@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">   
+</head>
+<body>
+  <div class="p-5 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-5">
+
+<div class="text-Warning">
+
+    <h1>Registration From</h1>
+
+</div>
+
+<form action="form.php" method="post" class="was-validated">
+
+
+  <div class="mb-3 mt-3">
+  <label class="form-label" for="firstname">First name:</label><br>
+  <input type="text" id="fname" placeholder="Enter Firstname" name="firstname" value=""  required>
+  <div class="valid-feedback">Valid.</div>
+  <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+
+   <div class="mb-3">
+  <label for="lastname">Last name:</label><br>
+  <input type="text" id="lname" placeholder="Enter Lastname" name="lastname" value="" required ><br>
+  <div class="valid-feedback">Valid.</div>
+  <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+
+  <div>
+  <label for="emailid">Email Id</label><br>
+  <input type="email" placeholder="Enter Email Id" id="email" name="emailid" value=""  required><br>
+  <div class="valid-feedback">Valid.</div>
+  <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+
+  <div>
+  <label for="phonenumber">phone number:</label><br>
+  <input type="tel" placeholder="Enter phone Number" id="phone" name="phonenumber"  required><br>
+  <div class="valid-feedback">Valid.</div>
+  <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+
+  <input type="submit" value="Submit" class="btn btn-danger btn-block mb-4">
+
+
+</form>
+</div>
+</body>
+</html>
